@@ -29,7 +29,7 @@
     <artifactId>openwebbeans</artifactId>
     <name>Apache OpenWebBeans</name>
     <packaging>pom</packaging>
-    <version>1.7.5</version>
+    <version>1.7.5-TT.1-SNAPSHOT</version>
 
     <url>openwebbeans.apache.org</url>
 
@@ -46,9 +46,9 @@
     <inceptionYear>2008</inceptionYear>
 
     <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/openwebbeans/tags/openwebbeans-1.7.5</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/openwebbeans/tags/openwebbeans-1.7.5</developerConnection>
-        <url>https://svn.apache.org/repos/asf/openwebbeans/tags/openwebbeans-1.7.5</url>
+        <connection>scm:svn:http://svn.apache.org/repos/asf/openwebbeans/branches/owb_1.7.x</connection>
+        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/openwebbeans/branches/owb_1.7.x</developerConnection>
+        <url>https://svn.apache.org/repos/asf/openwebbeans/branches/owb_1.7.x</url>
     </scm>
 
     <issueManagement>
@@ -80,7 +80,21 @@
         <osgi.el.range>2.2</osgi.el.range>
         <osgi.faces.range>2.0</osgi.faces.range>
     </properties>
-    
+
+    <distributionManagement>
+        <repository>
+            <id>tomitribe.releases.https</id>
+            <name>Tomitribe Release Distribution Repository</name>
+            <url>https://repository.tomitribe.com/service/local/staging/deploy/maven2</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>tomitribe.snapshots.https</id>
+            <name>Tomitribe Development Snapshot Repository</name>
+            <url>https://repository.tomitribe.com/content/repositories/snapshots-tomitribe</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <mailingLists>
         <mailingList>
             <name>OpenWebBeans Developer List</name>
