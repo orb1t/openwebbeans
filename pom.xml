@@ -47,7 +47,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/tomitribe/openwebbeans.git</connection>
-        <developerConnection>scm:svn:https://github.com/tomitribe/openwebbeans.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/tomitribe/openwebbeans.git</developerConnection>
         <url>https://github.com/tomitribe/openwebbeans.git</url>
     </scm>
 
