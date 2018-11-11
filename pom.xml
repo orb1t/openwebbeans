@@ -45,6 +45,12 @@
 
     <inceptionYear>2008</inceptionYear>
 
+    <scm>
+        <connection>scm:git:https://github.com/tomitribe/openwebbeans.git</connection>
+        <developerConnection>scm:svn:https://github.com/tomitribe/openwebbeans.git</developerConnection>
+        <url>https://github.com/tomitribe/openwebbeans.git</url>
+    </scm>
+
     <issueManagement>
         <system>jira</system>
         <url>http://issues.apache.org/jira/browse/OWB</url>
